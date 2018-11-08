@@ -1,8 +1,7 @@
-# Generador de fuentes de iconos
+# Generador de fuentes de iconos desde SVG
 Tarea que genera fuentes tipográficas y el CSS asociado a partir de un directorio con múltiples SVG.
 
-La recomendación de Sara Soueidan es que uses SVG en lugar de las fuentes (https://www.sarasoueidan.com/blog/icon-fonts-to-svg/),
-su recomendación es que uses SVG en lugar de las fuentes (https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/).
+La recomendación de Sara Soueidan es que uses SVG en lugar de las fuentes (https://www.sarasoueidan.com/blog/icon-fonts-to-svg/) && (https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/).
 Comparativa de las dos técnicas (https://css-tricks.com/icon-fonts-vs-svg/).
 
 ## Requisitos
@@ -38,6 +37,7 @@ $ gulp
 ## Configuración
 
 En el archivo `./config.js` están definidas las opciones de configuración.
+
 Clave | Descripción | Valor por defecto
 --- | --- | ---
 **src**  | Directorio donde se encuentran los SVG  | `./src/svg`
