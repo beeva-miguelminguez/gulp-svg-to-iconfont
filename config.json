@@ -1,0 +1,9 @@
+{
+  "src"  :        "./src/svg",
+  "dest" :        "./build/fonts",
+  "fontName" :    "nextfont",
+  "cssTemplate" : "./src/css/_icons.scss",
+  "cssDest" :     "./styles/_icons.scss",
+  "cssFontPath" : "./fonts/",
+  "fontFormats" : ["ttf", "eot", "woff"]
+}

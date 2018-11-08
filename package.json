@@ -1,0 +1,20 @@
+{
+  "name": "gulp-svg-to-iconfont",
+  "version": "1.0.0",
+  "description": "Convierte los SVG de un directorio en una fuente tipografica y genera el CSS necesario a partir de un template",
+  "main": "gulpfile.js",
+  "author": "Miguel Mínguez Mazón <miguel.minguez.next@bbva.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/organizacion/nombre.git"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-iconfont": "^10.0.2",
+    "gulp-iconfont-css": "^2.3.0"
+  }
+}
