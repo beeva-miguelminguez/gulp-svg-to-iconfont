@@ -22,11 +22,11 @@ gulp.task('default', function(){
         fontPath: config.cssFontPath
       }))
     .pipe(iconfont({
-      fontName: config.fontName, // required
-      //prependUnicode: true, // recommended option
+      fontName: config.fontName,    // required
+      //prependUnicode: true,      // recommended option
       formats: config.fontFormats, // default, 'woff2' and 'svg' are available
       normalize: true,
-      // timestamp: runTimestamp, // recommended to get consistent builds when watching files
+      // timestamp: runTimestamp, // recommended to get consistent builds when watching files but it doesn't work. Implemented in the scss template
     }))
     // .on('glyphs', function(glyphs, options) {
     //   // CSS templating, e.g.

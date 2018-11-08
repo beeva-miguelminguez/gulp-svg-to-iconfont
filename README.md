@@ -4,6 +4,11 @@ Tarea que genera fuentes tipográficas y el CSS asociado a partir de un director
 La recomendación de Sara Soueidan es que uses SVG en lugar de las fuentes (https://www.sarasoueidan.com/blog/icon-fonts-to-svg/) && (https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/).
 Comparativa de las dos técnicas (https://css-tricks.com/icon-fonts-vs-svg/).
 
+Es la configuración mas básica que he creido necesaria. Para dotar de mas opciones consultar la documentación de las librerías utilizadas.
+
+https://www.npmjs.com/package/gulp-iconfont
+https://github.com/backflip/gulp-iconfont-css
+
 ## Requisitos
 Tener NodeJS y NPM instalados y Gulp de manera global.
 
@@ -54,5 +59,6 @@ Clave | Descripción | Valor por defecto
 Incluir el CSS en el HTML y añadir una etiqueta con las clases de cada icono generado.
 
 ```HTML
+<link href="./styles/icons.css" rel="stylesheet" type="text/css">
 <span class="icon-alert"></span>
 ```
