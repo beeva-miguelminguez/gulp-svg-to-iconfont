@@ -7,6 +7,7 @@ Comparativa de las dos técnicas (https://css-tricks.com/icon-fonts-vs-svg/).
 Es la configuración mas básica que he creido necesaria. Para dotar de mas opciones consultar la documentación de las librerías utilizadas.
 
 https://www.npmjs.com/package/gulp-iconfont
+
 https://github.com/backflip/gulp-iconfont-css
 
 ## Requisitos
